@@ -11,7 +11,7 @@ const XLogin = () => {
          
       });
 
-      const handleChange = (e) => {
+      const handleChange1 = (e) => {
         const  value  = e.target.value;
         setFormData((prevState) => ({ ...prevState, [e.target.name]: value }));
       };  
