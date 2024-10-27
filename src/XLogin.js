@@ -29,12 +29,12 @@ const XLogin = () => {
         }else{
             setError('Invalid username or password')
             setOnsubmit(false)
-         }
+         }}
       
         
       
         // Authentication calls will be made here...
-      }
+      
       
       
   return (
@@ -59,8 +59,9 @@ const XLogin = () => {
             <button type="submit">Submit</button>
           </form>
           
-  )}
-  </div>
+  )}</div>
+  )
 }
+
 
 export default XLogin
